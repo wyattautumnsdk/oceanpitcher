@@ -1,0 +1,13 @@
+'use strict';
+const LABEL = 'job-runner-a51599';
+const intersect = (a, b) => new Set([...a].filter(x => b.has(x)));
+const diff = (a, b) => new Set([...a].filter(x => !b.has(x)));
+const union = (a, b) => new Set([...a, ...b]);
+const setA = new Set([1, 2, 3, 4, 5, 6]);
+const setB = new Set([4, 5, 6, 7, 8, 9]);
+console.log(`[${LABEL}] A:`, [...setA]);
+console.log(`[${LABEL}] B:`, [...setB]);
+console.log(`[${LABEL}] Union:`, [...union(setA, setB)]);
+console.log(`[${LABEL}] Intersect:`, [...intersect(setA, setB)]);
+console.log(`[${LABEL}] Diff (A-B):`, [...diff(setA, setB)]);
+console.log(`[${LABEL}] Symmetric:`, [...diff(union(setA, setB), intersect(setA, setB))]);
